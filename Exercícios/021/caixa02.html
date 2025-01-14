@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            background-color: rgba(240, 128, 128, 0.281);
+        }
+        header{
+            background-color: rgba(240, 173, 128, 0.281);
+            padding: 1px;
+            outline: 1px solid rgba(0, 0, 0, 0.651);
+            margin: 0px auto 20px auto;
+        }
+        header > h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 60px;
+            font-weight: 300;
+            color: white;
+            text-align: center;
+            margin: 10px;
+        }
+        nav{
+            background-color: lightpink;
+            outline: 1px solid rgba(0, 0, 0, 0.651);
+            margin: auto;
+            text-align: center;
+        }
+        nav > a{
+            text-decoration: none;
+            padding: 5px 20px 0px 20px;
+            margin: 0px;
+        }
+        main{
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #Ocasioes{
+            background-color: rgba(240, 128, 197, 0.281);
+            text-align: center;
+            margin: 5px 0px 0px 0px;
+            box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.438);
+        }
+        h2{
+            font-size: 36px;
+            margin: auto;
+            text-align: center;
+            padding: 10px;
+        }
+        #Receitas{
+            background-color: rgba(240, 173, 128, 0.281);
+            padding: 10px;
+        }
+        footer{
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            background-color: black;
+            color: white;
+            padding: 2px;
+            margin: 12px auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mania dos Doces</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="Ocasioes">
+        <h2>Ocasiões</h2>    
+            <nav>
+                <a href="#">Aniversários</a>
+                <a href="#">Páscoa</a>
+                <a href="#">Formatura</a>
+                <a href="#">Natal</a>
+                <a href="#">Ano Novo</a>
+            </nav>
+        </section>
+        <section id="Receitas">
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ratione harum saepe natus quibusdam a vitae voluptatum, rem neque consequuntur molestiae quas fugit delectus debitis similique. Laborum asperiores aliquam commodi.</p>
+                <aside>Receita Criada por: Mania dos Doces</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Fiz esse site usando HTML5 e CSS3</p>
+    </footer>
+</body>
+</html>
